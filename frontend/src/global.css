@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box; 
+}
+
+/*@import url('www.google.com/fonts'); */
+
+@font-face {
+    font-family: "roboto";
+    src: url(../src/assets/Roboto-Regular.ttf);
+  }
+
+
+body{
+    font-family: roboto ,Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #f0f0f5;
+    -webkit-font-smoothing:antialiased;
+}
+
+input,button,textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+
+form input{
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 20px;
+}
+
+form textarea{
+    width: 100%;
+    min-height: 140px;
+    resize: vertical;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+
+.button{
+    width: 100%;
+    height: 60px;
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}
+
+
+/* adicionado para ser padrão em todos link*/
+
+.back-link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none !important;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.back-link :hover{
+    opacity: 0.8;
+}
+
+.back-link svg{
+   margin-right: 8px;
+}
+
